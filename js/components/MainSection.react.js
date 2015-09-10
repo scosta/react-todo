@@ -3,7 +3,7 @@ var ReactPropTypes = React.PropTypes;
 var TodoActions = require('../actions/TodoActions');
 var TodoItem = require('./TodoItem.react');
 
-var MainSection = react.createClass({
+var MainSection = React.createClass({
     propTypes: {
         allTodos: ReactPropTypes.object.isRequired,
         areAllComplete: ReactPropTypes.bool.isRequired
